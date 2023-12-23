@@ -1,6 +1,4 @@
-# Build a Disney+ Clone with Next.js 14
-
-Join me as I show you how to build a Disney+ clone from scratch with the newly released Next.js 14! In this project, you'll learn how to:
+# Build a Movie Streming App with Next.js 14
 
 ** Features:**
 
