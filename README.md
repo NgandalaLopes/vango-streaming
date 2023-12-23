@@ -22,4 +22,4 @@
 
 Proundly developed by : [miggsweb.com](https://miggsweb.com/)
 
-[![MIT License](https://raw.githubusercontent.com/NgandalaLopes/landing/444f0ca9d4b6d9ab0ccef06d72b0cd50333cb9b3/src/logo.svg)](https://miggsweb.com/)
+[![MIT License](https://raw.githubusercontent.com/NgandalaLopes/media-source/main/dev-with-d.webp)](https://miggsweb.com/)
