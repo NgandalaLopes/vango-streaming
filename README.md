@@ -3,6 +3,8 @@
 
 ### Build a Movie Streming App with Next.js 14
 
+### Microsoft Azure, Caching, OpenAI, Shadcn, Tailwind, TS
+
 - Powered by Beautiful UI & UX with Shadown: Design a visually appealing and intuitive interface using the popular Shadown library.
 
 - Leverage Azure Functions: Build and integrate serverless functions using Azure Functions to enhance the backend functionality.
