@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: 'VANGO Streaming',
-  description: 'You know what time it is',
+  description: 'Just about that time',
 }
 
 export default function RootLayout({

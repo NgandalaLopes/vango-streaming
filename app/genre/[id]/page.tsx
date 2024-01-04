@@ -1,20 +1,28 @@
-type Props = {
-    params: {
-        id: string;
-    };
-    searchParams: {
-        genre: string;
-    }
-}
+import MoviesCarousel from "@/components/MoviesCarousel";
+import { getDiscoverMovies } from "@/lib/getMovies";
 
-function GenrePage ({params: {id}, searchParams: {genre}} : Props) {
+async function GenrePage({
+  params: { id },
+  searchParams: { genre },
+}: {
+  params: { id: string };
+  searchParams: {
+    genre: string;
+  };
+}) {
+  console.log(id);
+  const movies = await getDiscoverMovies(id);
 
+  return (
+    <div className="max-w-7xl mx-auto">
+      <div className="flex flex-col space-y-5 mt-32 xl:mt-42">
+        <h1 className="text-6xl font-bold px-10">Results for {genre}</h1>
  
-    return <div>
-        Welcome to the genre with ID: {id} & name: {genre}
+        {/* <AISuggestion term={genre} /> */}
+        <MoviesCarousel title={`Genre`} movies={movies} isVertical />
+      </div>
     </div>
+  );
 }
 
-
-//http://localhost:3001/genre/80?/genre=Crime
 export default GenrePage;
