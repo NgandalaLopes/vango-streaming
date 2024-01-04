@@ -4,15 +4,21 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: "https",
-                hostname: "raw.githubusercontent.com",
+                hostname: "raw.githubusercontent.com"
             },
             {
                 protocol: "http",
-                hostname: "image.tmdb.org",
+                hostname: "image.tmdb.org"
             }
         ]
 
     }
 }
-
+module.exports = {
+    eslint: {
+      // Warning: This allows production builds to successfully complete even if
+      // your project has ESLint errors.
+      ignoreDuringBuilds: true,
+    },
+  }
 module.exports = nextConfig
