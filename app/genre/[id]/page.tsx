@@ -1,3 +1,4 @@
+import OpenAIAzureSuggestions from "@/components/OpenAIAzureSuggestions"
 import MoviesCarousel from "@/components/MoviesCarousel";
 import { getDiscoverMovies } from "@/lib/getMovies";
 
@@ -18,6 +19,8 @@ async function GenrePage({
       <div className="flex flex-col space-y-5 mt-32 xl:mt-42">
         <h1 className="text-6xl font-bold px-10">Results for {genre}</h1>
  
+
+        <OpenAIAzureSuggestions term={genre} />
         {/* <AISuggestion term={genre} /> */}
         <MoviesCarousel title={`Genre`} movies={movies} isVertical />
       </div>
