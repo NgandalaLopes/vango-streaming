@@ -20,7 +20,7 @@
 - Implement Dark Mode Toggling: Allow users to switch between light and dark mode based on their preferences.
 
 - Reduce Bugs with TypeScript: Write type-safe code with TypeScript to catch errors early and improve code maintainability. 
-## Badges
+ 
 
 Proundly developed by : [miggsweb.com](https://miggsweb.com/)
 
